@@ -13,6 +13,7 @@
 		1FBF3FE21D1D849F005DB46F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FBF3FE01D1D849F005DB46F /* Main.storyboard */; };
 		1FBF3FE41D1D849F005DB46F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FBF3FE31D1D849F005DB46F /* Assets.xcassets */; };
 		1FBF3FE71D1D849F005DB46F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FBF3FE51D1D849F005DB46F /* LaunchScreen.storyboard */; };
+		1FBF3FF01D1D85E3005DB46F /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBF3FEF1D1D85E3005DB46F /* HomeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		1FBF3FE31D1D849F005DB46F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1FBF3FE61D1D849F005DB46F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1FBF3FE81D1D849F005DB46F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FBF3FEE1D1D85E3005DB46F /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		1FBF3FEF1D1D85E3005DB46F /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				1FBF3FDB1D1D849F005DB46F /* AppDelegate.m */,
 				1FBF3FDD1D1D849F005DB46F /* ViewController.h */,
 				1FBF3FDE1D1D849F005DB46F /* ViewController.m */,
+				1FBF3FEE1D1D85E3005DB46F /* HomeViewController.h */,
+				1FBF3FEF1D1D85E3005DB46F /* HomeViewController.m */,
 				1FBF3FE01D1D849F005DB46F /* Main.storyboard */,
 				1FBF3FE31D1D849F005DB46F /* Assets.xcassets */,
 				1FBF3FE51D1D849F005DB46F /* LaunchScreen.storyboard */,
@@ -152,6 +157,7 @@
 				1FBF3FDF1D1D849F005DB46F /* ViewController.m in Sources */,
 				1FBF3FDC1D1D849F005DB46F /* AppDelegate.m in Sources */,
 				1FBF3FD91D1D849F005DB46F /* main.m in Sources */,
+				1FBF3FF01D1D85E3005DB46F /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
