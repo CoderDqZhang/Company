@@ -6,8 +6,8 @@
 //  Copyright © 2016 Zhang. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "BaseViewController.h"
 
-@interface HomeViewController : ViewController
+@interface HomeViewController : BaseViewController
 
 @end

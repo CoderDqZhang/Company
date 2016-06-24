@@ -1,5 +1,5 @@
 //
-//  ThisISViewController.h
+//  BaseViewController.h
 //  Company
 //
 //  Created by Zhang on 6/25/16.
@@ -8,6 +8,6 @@
 
 #import "ViewController.h"
 
-@interface ThisISViewController : ViewController
+@interface BaseViewController : ViewController
 
 @end

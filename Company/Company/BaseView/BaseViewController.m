@@ -1,21 +1,22 @@
 //
-//  ThisISViewController.m
+//  BaseViewController.m
 //  Company
 //
 //  Created by Zhang on 6/25/16.
 //  Copyright © 2016 Zhang. All rights reserved.
 //
 
-#import "ThisISViewController.h"
+#import "BaseViewController.h"
 
-@interface ThisISViewController ()
+@interface BaseViewController ()
 
 @end
 
-@implementation ThisISViewController
+@implementation BaseViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor whiteColor];
     // Do any additional setup after loading the view.
 }
 
