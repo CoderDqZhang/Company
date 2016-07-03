@@ -6,8 +6,10 @@
 //  Copyright © 2016 Zhang. All rights reserved.
 //
 
-#import "ViewController.h"
+#import <UIKit/UIKit.h>
 
-@interface BaseViewController : ViewController
+@interface BaseViewController : UIViewController
+
+- (void)backBtnPress:(UIBarButtonItem *)sender;
 
 @end

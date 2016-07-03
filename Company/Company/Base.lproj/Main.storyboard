@@ -5,10 +5,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
-        <!--Tab Bar Controller-->
+        <!--Tab Bar Con View Controller-->
         <scene sceneID="NUR-bM-x2r">
             <objects>
-                <tabBarController id="t4Q-Ff-51j" sceneMemberID="viewController">
+                <tabBarController id="t4Q-Ff-51j" customClass="TabBarConViewController" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" id="S2O-Rn-UsG">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -28,7 +28,7 @@
         <scene sceneID="sYm-M0-XK6">
             <objects>
                 <navigationController id="vrd-4C-5oZ" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="我的" id="cGe-F3-qnR"/>
+                    <tabBarItem key="tabBarItem" title="我的" image="toobar_me" selectedImage="toobar_me_select" id="cGe-F3-qnR"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="9Bu-SO-K7I">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -45,7 +45,7 @@
         <scene sceneID="IM5-9b-1V0">
             <objects>
                 <navigationController id="xQy-ew-lxk" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="消息" id="LpW-IK-Kjd"/>
+                    <tabBarItem key="tabBarItem" title="消息" image="toobar_message" selectedImage="toobar_message_select" id="LpW-IK-Kjd"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="aBw-UG-3hH">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -62,7 +62,7 @@
         <scene sceneID="cOh-r7-dDP">
             <objects>
                 <navigationController id="t5E-cf-Fga" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="功能" id="2CV-ez-DOa"/>
+                    <tabBarItem key="tabBarItem" title="功能" image="toobar_function" id="2CV-ez-DOa"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="wwj-Av-cl0">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -78,7 +78,7 @@
         <!--功能-->
         <scene sceneID="yD7-Ny-3NC">
             <objects>
-                <viewController id="zNx-UL-9Cv" sceneMemberID="viewController">
+                <viewController id="zNx-UL-9Cv" customClass="HomeViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="0DA-xN-bWh"/>
                         <viewControllerLayoutGuide type="bottom" id="gVO-eH-IPT"/>
@@ -97,7 +97,7 @@
         <!--消息-->
         <scene sceneID="lzN-FE-vh3">
             <objects>
-                <viewController id="bMm-nO-lyk" sceneMemberID="viewController">
+                <viewController id="bMm-nO-lyk" customClass="MessageViewContView" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="m3a-AP-jEz"/>
                         <viewControllerLayoutGuide type="bottom" id="Rgb-qT-THJ"/>
@@ -116,7 +116,7 @@
         <!--我的-->
         <scene sceneID="MQF-Fr-EKE">
             <objects>
-                <viewController id="wgF-CS-9iF" sceneMemberID="viewController">
+                <viewController id="wgF-CS-9iF" customClass="MineViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="3e8-QK-WEe"/>
                         <viewControllerLayoutGuide type="bottom" id="siV-TS-3Vn"/>
@@ -133,4 +133,11 @@
             <point key="canvasLocation" x="773" y="983"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="toobar_function" width="24" height="24"/>
+        <image name="toobar_me" width="24" height="24"/>
+        <image name="toobar_me_select" width="24" height="24"/>
+        <image name="toobar_message" width="24" height="24"/>
+        <image name="toobar_message_select" width="24" height="24"/>
+    </resources>
 </document>

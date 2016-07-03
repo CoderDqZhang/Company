@@ -10,4 +10,5 @@
 
 @interface BaseRequestViewModel : NSObject
 
+
 @end

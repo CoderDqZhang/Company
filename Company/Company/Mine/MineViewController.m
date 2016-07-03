@@ -7,6 +7,7 @@
 //
 
 #import "MineViewController.h"
+#import "LoginViewController.h"
 
 @interface MineViewController ()
 
@@ -16,7 +17,23 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self setUpNavigationBar];
     // Do any additional setup after loading the view.
+}
+
+- (void)setUpNavigationBar
+{
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"登录" style:UIBarButtonItemStylePlain target:self action:@selector(loginBtnPress:)];
+}
+
+- (void)loginBtnPress:(UIBarButtonItem *)sender
+{
+    UIStoryboard *loginStory = [UIStoryboard storyboardWithName:@"Login" bundle:nil];
+    LoginViewController *loginView = [loginStory instantiateViewControllerWithIdentifier:@"LoginViewController"];
+    UINavigationController *controller = [[UINavigationController alloc] initWithRootViewController:loginView];
+    [self presentViewController:controller animated:YES completion:^{
+        
+    }];
 }
 
 - (void)didReceiveMemoryWarning {

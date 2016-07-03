@@ -16,8 +16,20 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor whiteColor];
+    if (self. navigationController.viewControllers.count != 1) {
+        [self setNavigationBackBtn];
+    }
     // Do any additional setup after loading the view.
+}
+
+- (void)setNavigationBackBtn
+{
+    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"application_back"] style:UIBarButtonItemStylePlain target:self action:@selector(backBtnPress:)];
+}
+
+- (void)backBtnPress:(UIBarButtonItem *)sender
+{
+    [self.navigationController popViewControllerAnimated:YES];
 }
 
 - (void)didReceiveMemoryWarning {

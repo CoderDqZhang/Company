@@ -7,9 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F3868961D28DA8D00569032 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F3868951D28DA8D00569032 /* Login.storyboard */; };
+		1F38689F1D28E86B00569032 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F38689E1D28E86B00569032 /* LoginViewController.m */; };
+		1F3868A21D28E88200569032 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3868A11D28E88200569032 /* RegisterViewController.m */; };
+		1F3868A51D28ECB300569032 /* CompleteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3868A41D28ECB300569032 /* CompleteViewController.m */; };
+		1F3868A81D28ED0200569032 /* ProfilePhotoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3868A71D28ED0200569032 /* ProfilePhotoTableViewCell.m */; };
+		1F3868AB1D28ED1700569032 /* ProfileLabelTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3868AA1D28ED1700569032 /* ProfileLabelTableViewCell.m */; };
+		1F3868AE1D28ED3C00569032 /* ProfileFieldTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3868AD1D28ED3C00569032 /* ProfileFieldTableViewCell.m */; };
+		1F3868B51D291BB600569032 /* TabBarConViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3868B41D291BB600569032 /* TabBarConViewController.m */; };
+		1F3868BA1D291FA900569032 /* UIImage+PureColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3868B91D291FA900569032 /* UIImage+PureColor.m */; };
+		1F3868C31D292FEB00569032 /* UIViewController+DismissKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3868C21D292FEB00569032 /* UIViewController+DismissKeyboard.m */; };
+		1F3868C61D292FF800569032 /* UIViewController+hideExcessLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3868C51D292FF800569032 /* UIViewController+hideExcessLine.m */; };
 		1FBF3FD91D1D849F005DB46F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBF3FD81D1D849F005DB46F /* main.m */; };
 		1FBF3FDC1D1D849F005DB46F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBF3FDB1D1D849F005DB46F /* AppDelegate.m */; };
-		1FBF3FDF1D1D849F005DB46F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBF3FDE1D1D849F005DB46F /* ViewController.m */; };
 		1FBF3FE21D1D849F005DB46F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FBF3FE01D1D849F005DB46F /* Main.storyboard */; };
 		1FBF3FE41D1D849F005DB46F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FBF3FE31D1D849F005DB46F /* Assets.xcassets */; };
 		1FBF3FE71D1D849F005DB46F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FBF3FE51D1D849F005DB46F /* LaunchScreen.storyboard */; };
@@ -30,12 +40,35 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F3868951D28DA8D00569032 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		1F38689D1D28E86B00569032 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		1F38689E1D28E86B00569032 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		1F3868A01D28E88200569032 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		1F3868A11D28E88200569032 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		1F3868A31D28ECB300569032 /* CompleteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompleteViewController.h; sourceTree = "<group>"; };
+		1F3868A41D28ECB300569032 /* CompleteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompleteViewController.m; sourceTree = "<group>"; };
+		1F3868A61D28ED0200569032 /* ProfilePhotoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfilePhotoTableViewCell.h; sourceTree = "<group>"; };
+		1F3868A71D28ED0200569032 /* ProfilePhotoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfilePhotoTableViewCell.m; sourceTree = "<group>"; };
+		1F3868A91D28ED1700569032 /* ProfileLabelTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileLabelTableViewCell.h; sourceTree = "<group>"; };
+		1F3868AA1D28ED1700569032 /* ProfileLabelTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileLabelTableViewCell.m; sourceTree = "<group>"; };
+		1F3868AC1D28ED3C00569032 /* ProfileFieldTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileFieldTableViewCell.h; sourceTree = "<group>"; };
+		1F3868AD1D28ED3C00569032 /* ProfileFieldTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileFieldTableViewCell.m; sourceTree = "<group>"; };
+		1F3868AF1D29170000569032 /* Company.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Company.pch; sourceTree = "<group>"; };
+		1F3868B01D29179C00569032 /* Theme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Theme.h; sourceTree = "<group>"; };
+		1F3868B11D2917AF00569032 /* Define.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Define.h; sourceTree = "<group>"; };
+		1F3868B21D2917BF00569032 /* RequestUrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestUrl.h; sourceTree = "<group>"; };
+		1F3868B31D291BB600569032 /* TabBarConViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarConViewController.h; sourceTree = "<group>"; };
+		1F3868B41D291BB600569032 /* TabBarConViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarConViewController.m; sourceTree = "<group>"; };
+		1F3868B81D291FA900569032 /* UIImage+PureColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+PureColor.h"; sourceTree = "<group>"; };
+		1F3868B91D291FA900569032 /* UIImage+PureColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+PureColor.m"; sourceTree = "<group>"; };
+		1F3868C11D292FEB00569032 /* UIViewController+DismissKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+DismissKeyboard.h"; sourceTree = "<group>"; };
+		1F3868C21D292FEB00569032 /* UIViewController+DismissKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+DismissKeyboard.m"; sourceTree = "<group>"; };
+		1F3868C41D292FF800569032 /* UIViewController+hideExcessLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+hideExcessLine.h"; sourceTree = "<group>"; };
+		1F3868C51D292FF800569032 /* UIViewController+hideExcessLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+hideExcessLine.m"; sourceTree = "<group>"; };
 		1FBF3FD41D1D849F005DB46F /* Company.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Company.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FBF3FD81D1D849F005DB46F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1FBF3FDA1D1D849F005DB46F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1FBF3FDB1D1D849F005DB46F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1FBF3FDD1D1D849F005DB46F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1FBF3FDE1D1D849F005DB46F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1FBF3FE11D1D849F005DB46F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1FBF3FE31D1D849F005DB46F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1FBF3FE61D1D849F005DB46F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -83,6 +116,76 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F3868981D28E81C00569032 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				1F38689C1D28E83500569032 /* ViewModel */,
+				1F38689B1D28E82E00569032 /* Controller */,
+				1F3868991D28E82200569032 /* Model */,
+				1F38689A1D28E82800569032 /* View */,
+			);
+			name = Login;
+			path = Company/Login;
+			sourceTree = "<group>";
+		};
+		1F3868991D28E82200569032 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		1F38689A1D28E82800569032 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1F3868A61D28ED0200569032 /* ProfilePhotoTableViewCell.h */,
+				1F3868A71D28ED0200569032 /* ProfilePhotoTableViewCell.m */,
+				1F3868A91D28ED1700569032 /* ProfileLabelTableViewCell.h */,
+				1F3868AA1D28ED1700569032 /* ProfileLabelTableViewCell.m */,
+				1F3868AC1D28ED3C00569032 /* ProfileFieldTableViewCell.h */,
+				1F3868AD1D28ED3C00569032 /* ProfileFieldTableViewCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		1F38689B1D28E82E00569032 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1F38689D1D28E86B00569032 /* LoginViewController.h */,
+				1F38689E1D28E86B00569032 /* LoginViewController.m */,
+				1F3868A01D28E88200569032 /* RegisterViewController.h */,
+				1F3868A11D28E88200569032 /* RegisterViewController.m */,
+				1F3868A31D28ECB300569032 /* CompleteViewController.h */,
+				1F3868A41D28ECB300569032 /* CompleteViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		1F38689C1D28E83500569032 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		1F3868B61D291CCC00569032 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1FBF40651D1E2DFF005DB46F /* MineViewModel.h */,
+				1FBF40661D1E2DFF005DB46F /* MineViewModel.m */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		1F3868B71D291CDA00569032 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1FBF40631D1E2DFF005DB46F /* MineViewController.h */,
+				1FBF40641D1E2DFF005DB46F /* MineViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
 		1FB7DBAE73A4782A852CAF2C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +198,7 @@
 		1FBF3FCB1D1D849F005DB46F = {
 			isa = PBXGroup;
 			children = (
+				1F3868981D28E81C00569032 /* Login */,
 				1FBF40531D1E2DFF005DB46F /* BaseView */,
 				1FBF405A1D1E2DFF005DB46F /* Home */,
 				1FBF405D1D1E2DFF005DB46F /* Message */,
@@ -120,9 +224,14 @@
 			children = (
 				1FBF3FDA1D1D849F005DB46F /* AppDelegate.h */,
 				1FBF3FDB1D1D849F005DB46F /* AppDelegate.m */,
-				1FBF3FDD1D1D849F005DB46F /* ViewController.h */,
-				1FBF3FDE1D1D849F005DB46F /* ViewController.m */,
+				1F3868B31D291BB600569032 /* TabBarConViewController.h */,
+				1F3868B41D291BB600569032 /* TabBarConViewController.m */,
+				1F3868AF1D29170000569032 /* Company.pch */,
+				1F3868B01D29179C00569032 /* Theme.h */,
+				1F3868B11D2917AF00569032 /* Define.h */,
+				1F3868B21D2917BF00569032 /* RequestUrl.h */,
 				1FBF3FE01D1D849F005DB46F /* Main.storyboard */,
+				1F3868951D28DA8D00569032 /* Login.storyboard */,
 				1FBF3FE31D1D849F005DB46F /* Assets.xcassets */,
 				1FBF3FE51D1D849F005DB46F /* LaunchScreen.storyboard */,
 				1FBF3FE81D1D849F005DB46F /* Info.plist */,
@@ -180,10 +289,8 @@
 		1FBF40621D1E2DFF005DB46F /* Mine */ = {
 			isa = PBXGroup;
 			children = (
-				1FBF40631D1E2DFF005DB46F /* MineViewController.h */,
-				1FBF40641D1E2DFF005DB46F /* MineViewController.m */,
-				1FBF40651D1E2DFF005DB46F /* MineViewModel.h */,
-				1FBF40661D1E2DFF005DB46F /* MineViewModel.m */,
+				1F3868B71D291CDA00569032 /* ViewController */,
+				1F3868B61D291CCC00569032 /* ViewModel */,
 			);
 			name = Mine;
 			path = Company/Mine;
@@ -202,10 +309,16 @@
 		1FBF40681D1E2DFF005DB46F /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				1F3868C11D292FEB00569032 /* UIViewController+DismissKeyboard.h */,
+				1F3868C21D292FEB00569032 /* UIViewController+DismissKeyboard.m */,
+				1F3868C41D292FF800569032 /* UIViewController+hideExcessLine.h */,
+				1F3868C51D292FF800569032 /* UIViewController+hideExcessLine.m */,
 				1FBF40691D1E2DFF005DB46F /* NSString+StringSize.h */,
 				1FBF406A1D1E2DFF005DB46F /* NSString+StringSize.m */,
 				1FBF406B1D1E2DFF005DB46F /* UIColor+Hex.h */,
 				1FBF406C1D1E2DFF005DB46F /* UIColor+Hex.m */,
+				1F3868B81D291FA900569032 /* UIImage+PureColor.h */,
+				1F3868B91D291FA900569032 /* UIImage+PureColor.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -337,6 +450,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F3868961D28DA8D00569032 /* Login.storyboard in Resources */,
 				1FBF3FE71D1D849F005DB46F /* LaunchScreen.storyboard in Resources */,
 				1FBF3FE41D1D849F005DB46F /* Assets.xcassets in Resources */,
 				1FBF3FE21D1D849F005DB46F /* Main.storyboard in Resources */,
@@ -399,20 +513,29 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FBF40811D1E2DFF005DB46F /* EMAlertView.m in Sources */,
-				1FBF3FDF1D1D849F005DB46F /* ViewController.m in Sources */,
+				1F3868B51D291BB600569032 /* TabBarConViewController.m in Sources */,
+				1F3868A51D28ECB300569032 /* CompleteViewController.m in Sources */,
+				1F3868AB1D28ED1700569032 /* ProfileLabelTableViewCell.m in Sources */,
 				1FBF407F1D1E2DFF005DB46F /* UIColor+Hex.m in Sources */,
+				1F3868C31D292FEB00569032 /* UIViewController+DismissKeyboard.m in Sources */,
 				1FBF407A1D1E2DFF005DB46F /* MessageViewContView.m in Sources */,
 				1FBF40781D1E2DFF005DB46F /* BaseViewController.m in Sources */,
 				1FBF407C1D1E2DFF005DB46F /* MineViewController.m in Sources */,
 				1FBF3FDC1D1D849F005DB46F /* AppDelegate.m in Sources */,
+				1F3868BA1D291FA900569032 /* UIImage+PureColor.m in Sources */,
+				1F3868A81D28ED0200569032 /* ProfilePhotoTableViewCell.m in Sources */,
+				1F38689F1D28E86B00569032 /* LoginViewController.m in Sources */,
 				1FBF407D1D1E2DFF005DB46F /* MineViewModel.m in Sources */,
 				1FBF40891D1E2E56005DB46F /* HomeViewController.m in Sources */,
 				1FBF407B1D1E2DFF005DB46F /* MessageViewModel.m in Sources */,
 				1FBF40761D1E2DFF005DB46F /* BaseNavigationController.m in Sources */,
 				1FBF40771D1E2DFF005DB46F /* BaseRequestViewModel.m in Sources */,
+				1F3868A21D28E88200569032 /* RegisterViewController.m in Sources */,
 				1FBF40791D1E2DFF005DB46F /* HomeViewModel.m in Sources */,
 				1FBF3FD91D1D849F005DB46F /* main.m in Sources */,
 				1FBF407E1D1E2DFF005DB46F /* NSString+StringSize.m in Sources */,
+				1F3868C61D292FF800569032 /* UIViewController+hideExcessLine.m in Sources */,
+				1F3868AE1D28ED3C00569032 /* ProfileFieldTableViewCell.m in Sources */,
 				1FBF40821D1E2DFF005DB46F /* ZHPickView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -526,7 +649,10 @@
 			baseConfigurationReference = 69B4FB1ECC0B265E1B3E23C3 /* Pods-Company.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Company/Company.pch";
 				INFOPLIST_FILE = Company/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.meet.Company;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -538,7 +664,10 @@
 			baseConfigurationReference = 9F0A29F9499FC67C41F509F5 /* Pods-Company.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Company/Company.pch";
 				INFOPLIST_FILE = Company/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.meet.Company;
 				PRODUCT_NAME = "$(TARGET_NAME)";
