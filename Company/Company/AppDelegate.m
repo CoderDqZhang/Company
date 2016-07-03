@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "LoginViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,8 +17,20 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    [self setApplicationTheme];
+    
+    
+//    UIStoryboard *mainStory = [UIStoryboard storyboardWithName:@"Login" bundle:nil];
+//    Lo
+    
     return YES;
+}
+
+
+- (void)setApplicationTheme
+{
+    [[UINavigationBar appearance] setTintColor:[UIColor blackColor]];
+    [[UITabBar appearance] setTintColor:[UIColor colorWithHexString:TabBarTintColor]];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

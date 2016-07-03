@@ -137,7 +137,7 @@
     }else {
         toolViewY= [UIScreen mainScreen].bounds.size.height-toolViewH;
     }
-    CGFloat toolViewW = ScreenWidth;
+    CGFloat toolViewW = [[UIScreen mainScreen] bounds].size.width;
     self.frame = CGRectMake(toolViewX, toolViewY, toolViewW, toolViewH);
 }
 -(void)setUpPickView{
@@ -147,7 +147,7 @@
     _pickerView=pickView;
     pickView.delegate=self;
     pickView.dataSource=self;
-    pickView.frame=CGRectMake(0, ZHToobarHeight, ScreenWidth, pickView.frame.size.height);
+    pickView.frame=CGRectMake(0, ZHToobarHeight, [[UIScreen mainScreen] bounds].size.width, pickView.frame.size.height);
     _pickeviewHeight=pickView.frame.size.height;
     [self addSubview:pickView];
 }
@@ -173,7 +173,7 @@
 }
 -(UIToolbar *)setToolbarStyle{
     UIToolbar *toolbar=[[UIToolbar alloc] init];
-    _centerLable = [[UILabel alloc] initWithFrame:CGRectMake(50, 0, ScreenWidth - 100, ZHToobarHeight)];
+    _centerLable = [[UILabel alloc] initWithFrame:CGRectMake(50, 0, [[UIScreen mainScreen] bounds].size.width - 100, ZHToobarHeight)];
     _centerLable.textAlignment = NSTextAlignmentCenter;
     [toolbar addSubview:_centerLable];
     

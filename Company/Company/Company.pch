@@ -1,0 +1,19 @@
+//
+//  Company.pch
+//  Company
+//
+//  Created by Zhang on 7/3/16.
+//  Copyright © 2016 Zhang. All rights reserved.
+//
+
+#ifndef Company_pch
+#define Company_pch
+
+#import "Theme.h"
+#import "RequestUrl.h"
+#import "Define.h"
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* Company_pch */
