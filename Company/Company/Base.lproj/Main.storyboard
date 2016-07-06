@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Tab Bar Con View Controller-->
@@ -84,15 +85,35 @@
                         <viewControllerLayoutGuide type="bottom" id="gVO-eH-IPT"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Zfz-UF-Iej">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="功能" id="GpZ-aF-4vM"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lvt-dX-SZa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="798" y="-622"/>
+            <point key="canvasLocation" x="797.5" y="-622.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="fmw-ge-x5m">
+            <objects>
+                <viewController id="8bJ-zZ-uBa" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="7Yg-nv-Bhg"/>
+                        <viewControllerLayoutGuide type="bottom" id="9JH-0r-9b0"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ddv-on-BQg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PH8-Lc-cXl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1220.5" y="-622.5"/>
         </scene>
         <!--消息-->
         <scene sceneID="lzN-FE-vh3">
@@ -103,15 +124,81 @@
                         <viewControllerLayoutGuide type="bottom" id="Rgb-qT-THJ"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="m2X-x8-JGM">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="62" sectionHeaderHeight="1" sectionFooterHeight="1" translatesAutoresizingMaskIntoConstraints="NO" id="ajT-h8-rDa">
+                                <rect key="frame" x="-4" y="0.0" width="383" height="618"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="MessageTableViewCell" rowHeight="62" id="aDb-f8-26J" customClass="MessageTableViewCell">
+                                        <rect key="frame" x="0.0" y="65" width="383" height="62"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="aDb-f8-26J" id="lKV-Dx-lIq">
+                                            <rect key="frame" x="0.0" y="0.0" width="350" height="61.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="KZj-Ta-M5c">
+                                                    <rect key="frame" x="18" y="8" width="45" height="45"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="45" id="4af-OW-6QO"/>
+                                                        <constraint firstAttribute="width" constant="45" id="lbj-2l-wZu"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="xx胶料04.26产量报表" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LgL-5A-5zb">
+                                                    <rect key="frame" x="76" y="8" width="145.5" height="18"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A厂区B车间XX胶料04：26产量报表详情如下" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JgJ-vL-LTu">
+                                                    <rect key="frame" x="76" y="36" width="243" height="17"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <color key="textColor" red="0.41085737179487181" green="0.41085737179487181" blue="0.41085737179487181" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="09：49" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mXU-sx-aru">
+                                                    <rect key="frame" x="314" y="11" width="36" height="12"/>
+                                                    <fontDescription key="fontDescription" type="system" weight="thin" pointSize="10"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailingMargin" secondItem="mXU-sx-aru" secondAttribute="trailing" constant="-8" id="1xp-Hz-PJN"/>
+                                                <constraint firstItem="KZj-Ta-M5c" firstAttribute="leading" secondItem="lKV-Dx-lIq" secondAttribute="leadingMargin" constant="10" id="BH9-Pa-TAS"/>
+                                                <constraint firstItem="KZj-Ta-M5c" firstAttribute="centerY" secondItem="lKV-Dx-lIq" secondAttribute="centerY" id="My7-UP-IN6"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="JgJ-vL-LTu" secondAttribute="trailing" constant="23" id="PkN-Xj-THB"/>
+                                                <constraint firstItem="JgJ-vL-LTu" firstAttribute="leading" secondItem="lKV-Dx-lIq" secondAttribute="leadingMargin" constant="68" id="VpG-Ih-hjM"/>
+                                                <constraint firstItem="mXU-sx-aru" firstAttribute="leading" secondItem="LgL-5A-5zb" secondAttribute="trailing" priority="750" constant="92.5" id="dJY-mh-QDe"/>
+                                                <constraint firstItem="LgL-5A-5zb" firstAttribute="leading" secondItem="lKV-Dx-lIq" secondAttribute="leadingMargin" constant="68" id="dOi-FX-94J"/>
+                                                <constraint firstAttribute="topMargin" secondItem="LgL-5A-5zb" secondAttribute="top" id="dSI-uK-Jzl"/>
+                                                <constraint firstItem="mXU-sx-aru" firstAttribute="top" secondItem="lKV-Dx-lIq" secondAttribute="topMargin" constant="3" id="gy3-ek-bFg"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="JgJ-vL-LTu" secondAttribute="bottom" constant="0.5" id="xl7-Xy-B2R"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="bMm-nO-lyk" id="S5f-1V-RdC"/>
+                                    <outlet property="delegate" destination="bMm-nO-lyk" id="Gnh-S1-FVA"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="ajT-h8-rDa" secondAttribute="trailing" constant="-20" id="9cl-eV-Qsq"/>
+                            <constraint firstItem="ajT-h8-rDa" firstAttribute="top" secondItem="m3a-AP-jEz" secondAttribute="bottom" constant="-64" id="OhE-bx-j4M"/>
+                            <constraint firstItem="Rgb-qT-THJ" firstAttribute="top" secondItem="ajT-h8-rDa" secondAttribute="bottom" id="QFH-iY-g4N"/>
+                            <constraint firstItem="ajT-h8-rDa" firstAttribute="leading" secondItem="m2X-x8-JGM" secondAttribute="leadingMargin" constant="-20" id="iOI-mS-pxw"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="消息" id="ZM0-gK-YSH"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sxb-68-KMR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="773" y="195"/>
+            <point key="canvasLocation" x="772.5" y="194.5"/>
         </scene>
         <!--我的-->
         <scene sceneID="MQF-Fr-EKE">

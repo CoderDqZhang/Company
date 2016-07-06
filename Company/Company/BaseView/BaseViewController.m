@@ -18,6 +18,7 @@
     [super viewDidLoad];
     if (self. navigationController.viewControllers.count != 1) {
         [self setNavigationBackBtn];
+        
     }
     // Do any additional setup after loading the view.
 }

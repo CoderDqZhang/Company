@@ -1,5 +1,5 @@
 //
-//  HomeViewController.h
+//  MessageTableViewCell.h
 //  Company
 //
 //  Created by Zhang on 7/6/16.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HomeViewController : UIViewController
+@interface MessageTableViewCell : UITableViewCell
 
 @end

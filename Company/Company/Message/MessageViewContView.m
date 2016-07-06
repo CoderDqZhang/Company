@@ -7,8 +7,11 @@
 //
 
 #import "MessageViewContView.h"
+#import "MessageTableViewCell.h"
 
-@interface MessageViewContView ()
+@interface MessageViewContView ()<UITableViewDelegate, UITableViewDataSource>
+
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
 
 @end
 
@@ -16,7 +19,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self setUpTableView];
     // Do any additional setup after loading the view.
+}
+
+-  (void)setUpTableView
+{
+    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -24,6 +33,35 @@
     // Dispose of any resources that can be recreated.
 }
 
+#pragma mark - UITableViewDelegate&DataSource
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
+{
+    return 1;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return 10;
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
+{
+    return  0.00001;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    static NSString *cellIndef = @"MessageTableViewCell";
+    MessageTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIndef forIndexPath:indexPath];
+    if (cell == nil) {
+        if (cell == nil) {
+            NSArray *nibs = [[NSBundle mainBundle]loadNibNamed:@"MessageTableViewCell" owner:nil options:nil];
+            cell = [nibs lastObject];
+            
+        }
+    }
+    return cell;
+}
 /*
 #pragma mark - Navigation
 

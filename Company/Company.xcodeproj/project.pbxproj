@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F2881271D2D5D8B00713E9B /* MessageViewContView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2881261D2D5D8B00713E9B /* MessageViewContView.m */; };
 		1F3868961D28DA8D00569032 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F3868951D28DA8D00569032 /* Login.storyboard */; };
 		1F38689F1D28E86B00569032 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F38689E1D28E86B00569032 /* LoginViewController.m */; };
 		1F3868A21D28E88200569032 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3868A11D28E88200569032 /* RegisterViewController.m */; };
@@ -27,7 +28,6 @@
 		1FBF40771D1E2DFF005DB46F /* BaseRequestViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBF40571D1E2DFF005DB46F /* BaseRequestViewModel.m */; };
 		1FBF40781D1E2DFF005DB46F /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBF40591D1E2DFF005DB46F /* BaseViewController.m */; };
 		1FBF40791D1E2DFF005DB46F /* HomeViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBF405C1D1E2DFF005DB46F /* HomeViewModel.m */; };
-		1FBF407A1D1E2DFF005DB46F /* MessageViewContView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBF405F1D1E2DFF005DB46F /* MessageViewContView.m */; };
 		1FBF407B1D1E2DFF005DB46F /* MessageViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBF40611D1E2DFF005DB46F /* MessageViewModel.m */; };
 		1FBF407C1D1E2DFF005DB46F /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBF40641D1E2DFF005DB46F /* MineViewController.m */; };
 		1FBF407D1D1E2DFF005DB46F /* MineViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBF40661D1E2DFF005DB46F /* MineViewModel.m */; };
@@ -35,11 +35,15 @@
 		1FBF407F1D1E2DFF005DB46F /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBF406C1D1E2DFF005DB46F /* UIColor+Hex.m */; };
 		1FBF40811D1E2DFF005DB46F /* EMAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBF40721D1E2DFF005DB46F /* EMAlertView.m */; };
 		1FBF40821D1E2DFF005DB46F /* ZHPickView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBF40751D1E2DFF005DB46F /* ZHPickView.m */; };
-		1FBF40891D1E2E56005DB46F /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBF40881D1E2E56005DB46F /* HomeViewController.m */; };
+		1FC69D7B1D2D525200BF0B95 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC69D7A1D2D525200BF0B95 /* HomeViewController.m */; };
+		1FC69D821D2D589700BF0B95 /* MessageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC69D811D2D589700BF0B95 /* MessageTableViewCell.m */; };
+		1FC69D851D2D5A1600BF0B95 /* HomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC69D841D2D5A1600BF0B95 /* HomeView.m */; };
 		2FD0801BF0AC1497DEE6F068 /* Pods_Company.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87064A9FB6BCFDA031CA8A4E /* Pods_Company.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F2881251D2D5D8B00713E9B /* MessageViewContView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageViewContView.h; sourceTree = "<group>"; };
+		1F2881261D2D5D8B00713E9B /* MessageViewContView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageViewContView.m; sourceTree = "<group>"; };
 		1F3868951D28DA8D00569032 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		1F38689D1D28E86B00569032 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		1F38689E1D28E86B00569032 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
@@ -81,8 +85,6 @@
 		1FBF40591D1E2DFF005DB46F /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		1FBF405B1D1E2DFF005DB46F /* HomeViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewModel.h; sourceTree = "<group>"; };
 		1FBF405C1D1E2DFF005DB46F /* HomeViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewModel.m; sourceTree = "<group>"; };
-		1FBF405E1D1E2DFF005DB46F /* MessageViewContView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageViewContView.h; sourceTree = "<group>"; };
-		1FBF405F1D1E2DFF005DB46F /* MessageViewContView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageViewContView.m; sourceTree = "<group>"; };
 		1FBF40601D1E2DFF005DB46F /* MessageViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageViewModel.h; sourceTree = "<group>"; };
 		1FBF40611D1E2DFF005DB46F /* MessageViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageViewModel.m; sourceTree = "<group>"; };
 		1FBF40631D1E2DFF005DB46F /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
@@ -97,8 +99,12 @@
 		1FBF40721D1E2DFF005DB46F /* EMAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMAlertView.m; sourceTree = "<group>"; };
 		1FBF40741D1E2DFF005DB46F /* ZHPickView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHPickView.h; sourceTree = "<group>"; };
 		1FBF40751D1E2DFF005DB46F /* ZHPickView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHPickView.m; sourceTree = "<group>"; };
-		1FBF40871D1E2E56005DB46F /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
-		1FBF40881D1E2E56005DB46F /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		1FC69D791D2D525200BF0B95 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		1FC69D7A1D2D525200BF0B95 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		1FC69D801D2D589700BF0B95 /* MessageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageTableViewCell.h; sourceTree = "<group>"; };
+		1FC69D811D2D589700BF0B95 /* MessageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageTableViewCell.m; sourceTree = "<group>"; };
+		1FC69D831D2D5A1600BF0B95 /* HomeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeView.h; sourceTree = "<group>"; };
+		1FC69D841D2D5A1600BF0B95 /* HomeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeView.m; sourceTree = "<group>"; };
 		69B4FB1ECC0B265E1B3E23C3 /* Pods-Company.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Company.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Company/Pods-Company.debug.xcconfig"; sourceTree = "<group>"; };
 		87064A9FB6BCFDA031CA8A4E /* Pods_Company.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Company.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F0A29F9499FC67C41F509F5 /* Pods-Company.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Company.release.xcconfig"; path = "Pods/Target Support Files/Pods-Company/Pods-Company.release.xcconfig"; sourceTree = "<group>"; };
@@ -277,10 +283,10 @@
 		1FBF405D1D1E2DFF005DB46F /* Message */ = {
 			isa = PBXGroup;
 			children = (
-				1FBF405E1D1E2DFF005DB46F /* MessageViewContView.h */,
-				1FBF405F1D1E2DFF005DB46F /* MessageViewContView.m */,
-				1FBF40601D1E2DFF005DB46F /* MessageViewModel.h */,
-				1FBF40611D1E2DFF005DB46F /* MessageViewModel.m */,
+				1FC69D7F1D2D550800BF0B95 /* Model */,
+				1FC69D7E1D2D54F900BF0B95 /* ViewModel */,
+				1FC69D7D1D2D54F400BF0B95 /* View */,
+				1FC69D7C1D2D54E900BF0B95 /* ViewController */,
 			);
 			name = Message;
 			path = Company/Message;
@@ -353,8 +359,8 @@
 		1FBF40831D1E2E27005DB46F /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				1FBF40871D1E2E56005DB46F /* HomeViewController.h */,
-				1FBF40881D1E2E56005DB46F /* HomeViewController.m */,
+				1FC69D791D2D525200BF0B95 /* HomeViewController.h */,
+				1FC69D7A1D2D525200BF0B95 /* HomeViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -369,6 +375,8 @@
 		1FBF40851D1E2E39005DB46F /* View */ = {
 			isa = PBXGroup;
 			children = (
+				1FC69D831D2D5A1600BF0B95 /* HomeView.h */,
+				1FC69D841D2D5A1600BF0B95 /* HomeView.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -380,6 +388,40 @@
 				1FBF405C1D1E2DFF005DB46F /* HomeViewModel.m */,
 			);
 			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		1FC69D7C1D2D54E900BF0B95 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1F2881251D2D5D8B00713E9B /* MessageViewContView.h */,
+				1F2881261D2D5D8B00713E9B /* MessageViewContView.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		1FC69D7D1D2D54F400BF0B95 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1FC69D801D2D589700BF0B95 /* MessageTableViewCell.h */,
+				1FC69D811D2D589700BF0B95 /* MessageTableViewCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		1FC69D7E1D2D54F900BF0B95 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1FBF40601D1E2DFF005DB46F /* MessageViewModel.h */,
+				1FBF40611D1E2DFF005DB46F /* MessageViewModel.m */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		1FC69D7F1D2D550800BF0B95 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 		81AE9EFD642308641F5A5033 /* Frameworks */ = {
@@ -515,10 +557,11 @@
 				1FBF40811D1E2DFF005DB46F /* EMAlertView.m in Sources */,
 				1F3868B51D291BB600569032 /* TabBarConViewController.m in Sources */,
 				1F3868A51D28ECB300569032 /* CompleteViewController.m in Sources */,
+				1FC69D7B1D2D525200BF0B95 /* HomeViewController.m in Sources */,
 				1F3868AB1D28ED1700569032 /* ProfileLabelTableViewCell.m in Sources */,
+				1F2881271D2D5D8B00713E9B /* MessageViewContView.m in Sources */,
 				1FBF407F1D1E2DFF005DB46F /* UIColor+Hex.m in Sources */,
 				1F3868C31D292FEB00569032 /* UIViewController+DismissKeyboard.m in Sources */,
-				1FBF407A1D1E2DFF005DB46F /* MessageViewContView.m in Sources */,
 				1FBF40781D1E2DFF005DB46F /* BaseViewController.m in Sources */,
 				1FBF407C1D1E2DFF005DB46F /* MineViewController.m in Sources */,
 				1FBF3FDC1D1D849F005DB46F /* AppDelegate.m in Sources */,
@@ -526,15 +569,16 @@
 				1F3868A81D28ED0200569032 /* ProfilePhotoTableViewCell.m in Sources */,
 				1F38689F1D28E86B00569032 /* LoginViewController.m in Sources */,
 				1FBF407D1D1E2DFF005DB46F /* MineViewModel.m in Sources */,
-				1FBF40891D1E2E56005DB46F /* HomeViewController.m in Sources */,
 				1FBF407B1D1E2DFF005DB46F /* MessageViewModel.m in Sources */,
 				1FBF40761D1E2DFF005DB46F /* BaseNavigationController.m in Sources */,
 				1FBF40771D1E2DFF005DB46F /* BaseRequestViewModel.m in Sources */,
+				1FC69D851D2D5A1600BF0B95 /* HomeView.m in Sources */,
 				1F3868A21D28E88200569032 /* RegisterViewController.m in Sources */,
 				1FBF40791D1E2DFF005DB46F /* HomeViewModel.m in Sources */,
 				1FBF3FD91D1D849F005DB46F /* main.m in Sources */,
 				1FBF407E1D1E2DFF005DB46F /* NSString+StringSize.m in Sources */,
 				1F3868C61D292FF800569032 /* UIViewController+hideExcessLine.m in Sources */,
+				1FC69D821D2D589700BF0B95 /* MessageTableViewCell.m in Sources */,
 				1F3868AE1D28ED3C00569032 /* ProfileFieldTableViewCell.m in Sources */,
 				1FBF40821D1E2DFF005DB46F /* ZHPickView.m in Sources */,
 			);
