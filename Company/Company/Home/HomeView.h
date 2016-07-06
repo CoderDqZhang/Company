@@ -1,5 +1,5 @@
 //
-//  HomeViewController.h
+//  HomeView.h
 //  Company
 //
 //  Created by Zhang on 7/6/16.
@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HomeViewController : UIViewController
+@interface HomeView : UIView
+
+- (void)setTitleText:(NSString *)title;
 
 @end
