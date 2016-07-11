@@ -8,6 +8,7 @@ target 'Company' do
     pod 'MBProgressHUD'
     pod 'AFNetworking', '~> 3.0'
    pod 'Charts/Realm'
+   pod 'FDFullscreenPopGesture', '1.1'
 
   # Pods for Company
 

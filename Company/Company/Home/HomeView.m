@@ -18,6 +18,8 @@
 @property (nonatomic, strong) UILabel *lineLabel;
 @property (nonatomic, strong) UIImageView *productImage;
 
+
+
 @end
 
 @implementation HomeView
@@ -53,12 +55,27 @@
     _lineLabel = [[UILabel alloc] init];
     _lineLabel.frame = CGRectMake(CGRectGetMaxX(_productImage.frame) + 10, CGRectGetMaxY(_titleLabel.frame) + 2, LabelWidth, 1);
     _lineLabel.backgroundColor = [UIColor whiteColor];
+    
+    
+    UITapGestureRecognizer *homeLableTap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(homeLableTap:)];
+    homeLableTap.numberOfTapsRequired = 1;
+    homeLableTap.numberOfTouchesRequired = 1;
+    [self addGestureRecognizer:homeLableTap];
+    
     [self addSubview:_lineLabel];
 
 }
 
-- (void)setTitleText:(NSString *)title
+- (void)homeLableTap:(UITapGestureRecognizer *)gesture
 {
+    if (self.block) {
+        self.block([gesture view].tag);
+    }
+}
+
+- (void)setTitleText:(NSString *)title withViewTag:(NSInteger)tag
+{
+    self.tag = tag;
     _titleLabel.text = title;
 }
 

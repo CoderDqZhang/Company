@@ -8,8 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
+typedef void (^LableTapGesture)(NSInteger tag);
+
 @interface HomeView : UIView
 
-- (void)setTitleText:(NSString *)title;
+@property (nonatomic, strong) LableTapGesture block;
+
+- (void)setTitleText:(NSString *)title withViewTag:(NSInteger)tag;
 
 @end

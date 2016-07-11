@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F17745C1D333FE400E9B78E /* HomeTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F17745B1D333FE400E9B78E /* HomeTableView.m */; };
+		1F17745F1D337EF100E9B78E /* HomeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F17745E1D337EF100E9B78E /* HomeDetailViewController.m */; };
+		1F1774621D33809900E9B78E /* HomeViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1774611D33809900E9B78E /* HomeViewCell.m */; };
+		1F1774651D3380AD00E9B78E /* HomeTitleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1774641D3380AD00E9B78E /* HomeTitleTableViewCell.m */; };
+		1F1774681D33935100E9B78E /* ChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1774671D33935100E9B78E /* ChartViewController.m */; };
+		1F17746B1D33944600E9B78E /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F17746A1D33944600E9B78E /* test.swift */; };
+		1F1774711D33998100E9B78E /* ChartBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1774701D33998100E9B78E /* ChartBaseViewController.m */; };
 		1F2881271D2D5D8B00713E9B /* MessageViewContView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2881261D2D5D8B00713E9B /* MessageViewContView.m */; };
 		1F3868961D28DA8D00569032 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F3868951D28DA8D00569032 /* Login.storyboard */; };
 		1F38689F1D28E86B00569032 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F38689E1D28E86B00569032 /* LoginViewController.m */; };
@@ -42,6 +49,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F17745A1D333FE400E9B78E /* HomeTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTableView.h; sourceTree = "<group>"; };
+		1F17745B1D333FE400E9B78E /* HomeTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTableView.m; sourceTree = "<group>"; };
+		1F17745D1D337EF100E9B78E /* HomeDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeDetailViewController.h; sourceTree = "<group>"; };
+		1F17745E1D337EF100E9B78E /* HomeDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeDetailViewController.m; sourceTree = "<group>"; };
+		1F1774601D33809900E9B78E /* HomeViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewCell.h; sourceTree = "<group>"; };
+		1F1774611D33809900E9B78E /* HomeViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewCell.m; sourceTree = "<group>"; };
+		1F1774631D3380AD00E9B78E /* HomeTitleTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTitleTableViewCell.h; sourceTree = "<group>"; };
+		1F1774641D3380AD00E9B78E /* HomeTitleTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTitleTableViewCell.m; sourceTree = "<group>"; };
+		1F1774661D33935100E9B78E /* ChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartViewController.h; sourceTree = "<group>"; };
+		1F1774671D33935100E9B78E /* ChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartViewController.m; sourceTree = "<group>"; };
+		1F1774691D33944600E9B78E /* Company-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Company-Bridging-Header.h"; sourceTree = "<group>"; };
+		1F17746A1D33944600E9B78E /* test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
+		1F17746F1D33998100E9B78E /* ChartBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartBaseViewController.h; sourceTree = "<group>"; };
+		1F1774701D33998100E9B78E /* ChartBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartBaseViewController.m; sourceTree = "<group>"; };
 		1F2881251D2D5D8B00713E9B /* MessageViewContView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageViewContView.h; sourceTree = "<group>"; };
 		1F2881261D2D5D8B00713E9B /* MessageViewContView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageViewContView.m; sourceTree = "<group>"; };
 		1F3868951D28DA8D00569032 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
@@ -236,12 +257,14 @@
 				1F3868B01D29179C00569032 /* Theme.h */,
 				1F3868B11D2917AF00569032 /* Define.h */,
 				1F3868B21D2917BF00569032 /* RequestUrl.h */,
+				1F17746A1D33944600E9B78E /* test.swift */,
 				1FBF3FE01D1D849F005DB46F /* Main.storyboard */,
 				1F3868951D28DA8D00569032 /* Login.storyboard */,
 				1FBF3FE31D1D849F005DB46F /* Assets.xcassets */,
 				1FBF3FE51D1D849F005DB46F /* LaunchScreen.storyboard */,
 				1FBF3FE81D1D849F005DB46F /* Info.plist */,
 				1FBF3FD71D1D849F005DB46F /* Supporting Files */,
+				1F1774691D33944600E9B78E /* Company-Bridging-Header.h */,
 			);
 			path = Company;
 			sourceTree = "<group>";
@@ -263,6 +286,8 @@
 				1FBF40571D1E2DFF005DB46F /* BaseRequestViewModel.m */,
 				1FBF40581D1E2DFF005DB46F /* BaseViewController.h */,
 				1FBF40591D1E2DFF005DB46F /* BaseViewController.m */,
+				1F17746F1D33998100E9B78E /* ChartBaseViewController.h */,
+				1F1774701D33998100E9B78E /* ChartBaseViewController.m */,
 			);
 			name = BaseView;
 			path = Company/BaseView;
@@ -361,6 +386,10 @@
 			children = (
 				1FC69D791D2D525200BF0B95 /* HomeViewController.h */,
 				1FC69D7A1D2D525200BF0B95 /* HomeViewController.m */,
+				1F17745D1D337EF100E9B78E /* HomeDetailViewController.h */,
+				1F17745E1D337EF100E9B78E /* HomeDetailViewController.m */,
+				1F1774661D33935100E9B78E /* ChartViewController.h */,
+				1F1774671D33935100E9B78E /* ChartViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -377,6 +406,12 @@
 			children = (
 				1FC69D831D2D5A1600BF0B95 /* HomeView.h */,
 				1FC69D841D2D5A1600BF0B95 /* HomeView.m */,
+				1F17745A1D333FE400E9B78E /* HomeTableView.h */,
+				1F17745B1D333FE400E9B78E /* HomeTableView.m */,
+				1F1774601D33809900E9B78E /* HomeViewCell.h */,
+				1F1774611D33809900E9B78E /* HomeViewCell.m */,
+				1F1774631D3380AD00E9B78E /* HomeTitleTableViewCell.h */,
+				1F1774641D3380AD00E9B78E /* HomeTitleTableViewCell.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -554,7 +589,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F1774711D33998100E9B78E /* ChartBaseViewController.m in Sources */,
 				1FBF40811D1E2DFF005DB46F /* EMAlertView.m in Sources */,
+				1F1774681D33935100E9B78E /* ChartViewController.m in Sources */,
 				1F3868B51D291BB600569032 /* TabBarConViewController.m in Sources */,
 				1F3868A51D28ECB300569032 /* CompleteViewController.m in Sources */,
 				1FC69D7B1D2D525200BF0B95 /* HomeViewController.m in Sources */,
@@ -563,11 +600,14 @@
 				1FBF407F1D1E2DFF005DB46F /* UIColor+Hex.m in Sources */,
 				1F3868C31D292FEB00569032 /* UIViewController+DismissKeyboard.m in Sources */,
 				1FBF40781D1E2DFF005DB46F /* BaseViewController.m in Sources */,
+				1F17746B1D33944600E9B78E /* test.swift in Sources */,
 				1FBF407C1D1E2DFF005DB46F /* MineViewController.m in Sources */,
 				1FBF3FDC1D1D849F005DB46F /* AppDelegate.m in Sources */,
 				1F3868BA1D291FA900569032 /* UIImage+PureColor.m in Sources */,
 				1F3868A81D28ED0200569032 /* ProfilePhotoTableViewCell.m in Sources */,
 				1F38689F1D28E86B00569032 /* LoginViewController.m in Sources */,
+				1F17745C1D333FE400E9B78E /* HomeTableView.m in Sources */,
+				1F1774651D3380AD00E9B78E /* HomeTitleTableViewCell.m in Sources */,
 				1FBF407D1D1E2DFF005DB46F /* MineViewModel.m in Sources */,
 				1FBF407B1D1E2DFF005DB46F /* MessageViewModel.m in Sources */,
 				1FBF40761D1E2DFF005DB46F /* BaseNavigationController.m in Sources */,
@@ -576,11 +616,13 @@
 				1F3868A21D28E88200569032 /* RegisterViewController.m in Sources */,
 				1FBF40791D1E2DFF005DB46F /* HomeViewModel.m in Sources */,
 				1FBF3FD91D1D849F005DB46F /* main.m in Sources */,
+				1F1774621D33809900E9B78E /* HomeViewCell.m in Sources */,
 				1FBF407E1D1E2DFF005DB46F /* NSString+StringSize.m in Sources */,
 				1F3868C61D292FF800569032 /* UIViewController+hideExcessLine.m in Sources */,
 				1FC69D821D2D589700BF0B95 /* MessageTableViewCell.m in Sources */,
 				1F3868AE1D28ED3C00569032 /* ProfileFieldTableViewCell.m in Sources */,
 				1FBF40821D1E2DFF005DB46F /* ZHPickView.m in Sources */,
+				1F17745F1D337EF100E9B78E /* HomeDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -693,6 +735,7 @@
 			baseConfigurationReference = 69B4FB1ECC0B265E1B3E23C3 /* Pods-Company.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/Company/Company.pch";
 				INFOPLIST_FILE = Company/Info.plist;
@@ -700,6 +743,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.meet.Company;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Company/Company-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -708,6 +753,7 @@
 			baseConfigurationReference = 9F0A29F9499FC67C41F509F5 /* Pods-Company.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/Company/Company.pch";
 				INFOPLIST_FILE = Company/Info.plist;
@@ -715,6 +761,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.meet.Company;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Company/Company-Bridging-Header.h";
 			};
 			name = Release;
 		};

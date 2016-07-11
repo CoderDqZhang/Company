@@ -12,4 +12,7 @@
 
 #define TabBarTintColor                  @"44aaab"
 
+#define ApplicationNavigationBarFont     [UIFont fontWithName:@"PingFangSC-Light" size:16.0]
+
+
 #endif /* Theme_h */
