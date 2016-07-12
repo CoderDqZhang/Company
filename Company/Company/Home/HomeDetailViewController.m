@@ -95,6 +95,7 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    //这个点击方法后面逻辑可能会改
     if (indexPath.row > 0) {
         UIStoryboard *mainStory = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
         ChartViewController *chartView = [mainStory instantiateViewControllerWithIdentifier:@"ChartViewController"];

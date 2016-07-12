@@ -35,6 +35,9 @@
     [self.view addSubview:_infoView];
 }
 
+/**
+ *  创建折线图
+ */
 - (void)setUpLineChart
 {
     //For Line Chart

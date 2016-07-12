@@ -25,6 +25,11 @@
     // Initialization code
 }
 
+/**
+ *  根据传进来的数据进行绘制
+ *
+ *  @param contentArray 
+ */
 - (void)setData:(NSArray *)contentArray
 {
     CGFloat titleWidth = (ScreenWidth - 40)/((CGFloat)contentArray.count);

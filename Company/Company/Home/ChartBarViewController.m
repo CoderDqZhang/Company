@@ -24,9 +24,13 @@
     // Do any additional setup after loading the view.
 }
 
+/**
+ *  创建柱状图
+ */
 - (void)setUpChartBarView
 {
     PNBarChart * barChart = [[PNBarChart alloc]initWithFrame:CGRectMake(24,35,SCREEN_WIDTH - 40,155.0)];
+    //bar背景视图
     [barChart setBarBackgroundColor:[UIColor whiteColor]];
     
     barChart.yChartLabelWidth = 5.0;

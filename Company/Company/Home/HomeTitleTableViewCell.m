@@ -22,7 +22,11 @@
 //36 133 150
 //67 170 171
 //86 189 187
-
+/**
+ *  根据传进来的数组数据创建label，label的颜色根据传进来的值颜色渐变
+ *
+ *  @param titleArray 数组数据
+ */
 - (void)setData:(NSArray *)titleArray
 {
     CGFloat titleWidth = (ScreenWidth - 40)/((CGFloat)titleArray.count);
