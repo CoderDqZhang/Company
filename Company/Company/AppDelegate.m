@@ -31,6 +31,8 @@
 {
     [[UINavigationBar appearance] setTintColor:[UIColor blackColor]];
     [[UITabBar appearance] setTintColor:[UIColor colorWithHexString:TabBarTintColor]];
+
+    [UINavigationBar appearance].titleTextAttributes = @{NSBackgroundColorAttributeName:[UIColor blackColor],NSFontAttributeName:ApplicationNavigationBarFont};
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
