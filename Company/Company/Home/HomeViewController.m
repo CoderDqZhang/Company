@@ -10,6 +10,8 @@
 #import "HomeView.h"
 #import "HomeTableView.h"
 #import "HomeDetailViewController.h"
+#import "ChartViewController.h"
+#import "ChartBarViewController.h"
 
 @interface HomeViewController ()
 
@@ -45,18 +47,6 @@
         [self.view addSubview:homeViewMass];
     }
     
-//    HomeView *homeViewMass = [[HomeView alloc] initWithFrame:CGRectMake(20, 74, ScreenWidth - 40, 82)];
-//    [homeViewMass setTitleText:@"成品质量分析" withViewTag:1];
-//    [self.view addSubview:homeViewMass];
-//    
-//    HomeView *homeViewWeight = [[HomeView alloc] initWithFrame:CGRectMake(20, CGRectGetMaxY(homeViewMass.frame) + 8, ScreenWidth - 40, 82)];
-//    [homeViewMass setTitleText:@"成品重量分析" withViewTag:2];
-//    [self.view addSubview:homeViewWeight];
-//    
-//    HomeView *homeViewFlaw = [[HomeView alloc] initWithFrame:CGRectMake(20, CGRectGetMaxY(homeViewWeight.frame) + 8, ScreenWidth - 40, 82)];
-//    [homeViewMass setTitleText:@"成品瑕疵分析" withViewTag:3];
-//    [self.view addSubview:homeViewFlaw];
-    
     UITapGestureRecognizer *hidderHomeGesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(hidderHomeTableView:)];
     hidderHomeGesture.numberOfTapsRequired = 1;
     hidderHomeGesture.numberOfTouchesRequired = 1;
@@ -72,21 +62,44 @@
         {
             homeDetailView.homeTitleArray = [[NSMutableArray alloc] initWithArray:@[@[@"序号",@"物料",@"总存量"]]];
             homeDetailView.contentArray = [[NSMutableArray alloc] initWithArray:@[@[@"1",@"M1AC101",@"12381.00"],@[@"1",@"M1AC101",@"12381.00"],@[@"1",@"M1AC101",@"12381.00"],@[@"1",@"M1AC101",@"12381.00"],@[@"1",@"M1AC101",@"12381.00"],@[@"1",@"M1AC101",@"12381.00"]]];
+            homeDetailView.hidesBottomBarWhenPushed = YES;
+            [self.navigationController pushViewController:homeDetailView animated:YES];
         }
             break;
          case 2:
         {
-            homeDetailView.homeTitleArray = [[NSMutableArray alloc] initWithArray:@[@[@"序号",@"成品型号",@"标准重量",@"平均重量"]]];
-            homeDetailView.contentArray = [[NSMutableArray alloc] initWithArray:@[@[@"1",@"M1AC101",@"56.78",@"56.45"],@[@"1",@"M1AC101",@"56.78",@"56.45"],@[@"1",@"M1AC101",@"56.78",@"56.45"],@[@"1",@"M1AC101",@"56.78",@"56.45"],@[@"1",@"M1AC101",@"56.78",@"56.45"],@[@"1",@"M1AC101",@"56.78",@"56.45"]]];
+            UIStoryboard *mainStroy = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+            
+            
+            ChartViewController *lineChartView = [mainStroy instantiateViewControllerWithIdentifier:@"ChartViewController"];
+            lineChartView.hidesBottomBarWhenPushed = YES;
+            [self.navigationController pushViewController:lineChartView animated:YES];
+//            homeDetailView.homeTitleArray = [[NSMutableArray alloc] initWithArray:@[@[@"序号",@"成品型号",@"标准重量",@"平均重量"]]];
+//            homeDetailView.contentArray = [[NSMutableArray alloc] initWithArray:@[@[@"1",@"M1AC101",@"56.78",@"56.45"],@[@"1",@"M1AC101",@"56.78",@"56.45"],@[@"1",@"M1AC101",@"56.78",@"56.45"],@[@"1",@"M1AC101",@"56.78",@"56.45"],@[@"1",@"M1AC101",@"56.78",@"56.45"],@[@"1",@"M1AC101",@"56.78",@"56.45"]]];
         }
             break;
         default:
-            homeDetailView.homeTitleArray = [[NSMutableArray alloc] initWithArray:@[@[@"序号",@"物料",@"总存量"]]];
-            homeDetailView.contentArray = [[NSMutableArray alloc] initWithArray:@[@[@"1",@"M1AC101",@"12381.00"],@[@"1",@"M1AC101",@"12381.00"],@[@"1",@"M1AC101",@"12381.00"],@[@"1",@"M1AC101",@"12381.00"],@[@"1",@"M1AC101",@"12381.00"],@[@"1",@"M1AC101",@"12381.00"]]];
+        {
+            UIStoryboard *mainStroy = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+            
+            
+            ChartBarViewController *barView = [mainStroy instantiateViewControllerWithIdentifier:@"ChartBarViewController"];
+            barView.hidesBottomBarWhenPushed = YES;
+            [self.navigationController pushViewController:barView animated:YES];
+            
+        }
+            
+//            homeDetailView.homeTitleArray = [[NSMutableArray alloc] initWithArray:@[@[@"序号",@"物料",@"总存量"]]];
+//            homeDetailView.contentArray = [[NSMutableArray alloc] initWithArray:@[@[@"1",@"M1AC101",@"12381.00"],@[@"1",@"M1AC101",@"12381.00"],@[@"1",@"M1AC101",@"12381.00"],@[@"1",@"M1AC101",@"12381.00"],@[@"1",@"M1AC101",@"12381.00"],@[@"1",@"M1AC101",@"12381.00"]]];
             break;
     }
-    homeDetailView.hidesBottomBarWhenPushed = YES;
-    [self.navigationController pushViewController:homeDetailView animated:YES];
+//    UIStoryboard *mainStroy = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+//    
+//    
+//    ChartBarViewController *barView = [mainStroy instantiateViewControllerWithIdentifier:@"ChartBarViewController"];
+//    [self.navigationController pushViewController:barView animated:YES];
+//    homeDetailView.hidesBottomBarWhenPushed = YES;
+//    [self.navigationController pushViewController:homeDetailView animated:YES];
 }
 
 - (UIView *)titleView

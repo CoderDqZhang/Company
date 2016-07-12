@@ -6,8 +6,8 @@
 //  Copyright © 2016 Zhang. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "BaseViewController.h"
 
-@interface ChartViewController : UIViewController
+@interface ChartViewController : BaseViewController
 
 @end

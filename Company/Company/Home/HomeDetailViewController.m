@@ -9,6 +9,8 @@
 #import "HomeDetailViewController.h"
 #import "HomeTitleTableViewCell.h"
 #import "HomeViewCell.h"
+#import "ChartViewController.h"
+#import "ChartBarViewController.h"
 
 @interface HomeDetailViewController ()<UITableViewDelegate, UITableViewDataSource>
 
@@ -88,6 +90,16 @@
         }
         [cell setData:_contentArray[indexPath.row - 1]];
         return cell;
+    }
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    if (indexPath.row > 0) {
+        UIStoryboard *mainStory = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+        ChartViewController *chartView = [mainStory instantiateViewControllerWithIdentifier:@"ChartViewController"];
+        chartView.hidesBottomBarWhenPushed = YES;
+        [self.navigationController pushViewController:chartView animated:YES];
     }
 }
 
