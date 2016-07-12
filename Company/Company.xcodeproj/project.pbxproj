@@ -14,6 +14,7 @@
 		1F1774681D33935100E9B78E /* ChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1774671D33935100E9B78E /* ChartViewController.m */; };
 		1F2881271D2D5D8B00713E9B /* MessageViewContView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2881261D2D5D8B00713E9B /* MessageViewContView.m */; };
 		1F2F569D1D34D616005AEBC8 /* ChartBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2F569C1D34D616005AEBC8 /* ChartBarViewController.m */; };
+		1F2F56A31D353F33005AEBC8 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2F56A21D353F33005AEBC8 /* TestViewController.m */; };
 		1F3868961D28DA8D00569032 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F3868951D28DA8D00569032 /* Login.storyboard */; };
 		1F38689F1D28E86B00569032 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F38689E1D28E86B00569032 /* LoginViewController.m */; };
 		1F3868A21D28E88200569032 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3868A11D28E88200569032 /* RegisterViewController.m */; };
@@ -63,6 +64,8 @@
 		1F2881261D2D5D8B00713E9B /* MessageViewContView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageViewContView.m; sourceTree = "<group>"; };
 		1F2F569B1D34D616005AEBC8 /* ChartBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartBarViewController.h; sourceTree = "<group>"; };
 		1F2F569C1D34D616005AEBC8 /* ChartBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartBarViewController.m; sourceTree = "<group>"; };
+		1F2F56A11D353F33005AEBC8 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		1F2F56A21D353F33005AEBC8 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 		1F3868951D28DA8D00569032 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		1F38689D1D28E86B00569032 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		1F38689E1D28E86B00569032 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
@@ -387,6 +390,8 @@
 				1F1774671D33935100E9B78E /* ChartViewController.m */,
 				1F2F569B1D34D616005AEBC8 /* ChartBarViewController.h */,
 				1F2F569C1D34D616005AEBC8 /* ChartBarViewController.m */,
+				1F2F56A11D353F33005AEBC8 /* TestViewController.h */,
+				1F2F56A21D353F33005AEBC8 /* TestViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -598,6 +603,7 @@
 				1FBF40781D1E2DFF005DB46F /* BaseViewController.m in Sources */,
 				1FBF407C1D1E2DFF005DB46F /* MineViewController.m in Sources */,
 				1FBF3FDC1D1D849F005DB46F /* AppDelegate.m in Sources */,
+				1F2F56A31D353F33005AEBC8 /* TestViewController.m in Sources */,
 				1F3868BA1D291FA900569032 /* UIImage+PureColor.m in Sources */,
 				1F3868A81D28ED0200569032 /* ProfilePhotoTableViewCell.m in Sources */,
 				1F38689F1D28E86B00569032 /* LoginViewController.m in Sources */,
